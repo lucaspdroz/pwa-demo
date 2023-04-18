@@ -10,12 +10,12 @@ if (!navigator.standalone) {
   window.addEventListener("beforeinstallprompt", (event) => {
     event.preventDefault();
     deferredPrompt = event;
-    modal.style.display = "block";
+    modal.style.display = "flex";
   });
 
   // Open the modal if the beforeinstallprompt event has not been fired
   if (deferredPrompt) {
-    modal.style.display = "block";
+    modal.style.display = "flex";
   }
 
   // Close the modal when the user clicks the close button

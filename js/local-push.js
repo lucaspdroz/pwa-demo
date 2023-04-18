@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
       navigator.serviceWorker.ready.then((registration) => {
         registration.showNotification("Vamos gritar Uhuu!🎊", {
           body: "Por uma vida com mais Uhuu! \n 🥳🥳🥳🎊",
-          icon: "../images/favicon-192x192px.png",
+          icon: "images/favicon-192x192px.png",
           data: {
             url: "https://www.google.com",
           },
