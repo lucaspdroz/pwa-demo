@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Events</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <script>
+      // Register a service worker if supported by the browser
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("service-worker.js");
+      }
+    </script>
+    <script
+      type="application/javascript"
+      defer
+      src="js/cache-request.js"
+    ></script>
+    <script type="application/javascript" defer src="js/modal.js"></script>
+    <script type="application/javascript" defer src="js/local-push.js"></script>
+  </head>
+  <body>
+    <h1>Events</h1>
+
+    <ul id="event-list"></ul>
+    <button id="callPush-btn">Show Push Notification</button>
+
+    <!-- Modal -->
+    <div id="installModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Install this app on your device:</p>
+        <button id="installBtn">Install</button>
+      </div>
+    </div>
+    <!-- <script src="js/cache-files.js"></script> -->
+  </body>
+</html>
