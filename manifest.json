@@ -14,6 +14,32 @@
     }
   ],
   "start_url": "./index.html",
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "home",
+      "desciption": "view homepage",
+      "url": "/",
+      "icons": [
+        {
+          "src": "./images/favicon-192x192px.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Share",
+      "short_name": "share",
+      "desciption": "share homepage",
+      "url": "/",
+      "icons": [
+        {
+          "src": "./images/favicon-512x512px.png",
+          "sizes": "512x512"
+        }
+      ]
+    }
+  ],
   "display": "standalone",
   "background_color": "#ee3680",
   "theme_color": "#ee3680"
