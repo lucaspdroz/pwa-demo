@@ -16,28 +16,11 @@
   "start_url": "./index.html",
   "shortcuts": [
     {
-      "name": "Home",
-      "short_name": "home",
-      "desciption": "view homepage",
+      "name": "Activity Feed",
+      "short_name": "Feed",
+      "description": "View your activity feed",
       "url": "/",
-      "icons": [
-        {
-          "src": "./images/favicon-192x192px.png",
-          "sizes": "192x192"
-        }
-      ]
-    },
-    {
-      "name": "Share",
-      "short_name": "share",
-      "desciption": "share homepage",
-      "url": "/",
-      "icons": [
-        {
-          "src": "./images/favicon-512x512px.png",
-          "sizes": "512x512"
-        }
-      ]
+      "icons": [{ "src": "./images/favicon-192x192px.png", "sizes": "192x192" }]
     }
   ],
   "display": "standalone",
