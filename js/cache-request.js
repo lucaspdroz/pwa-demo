@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const cacheName = "events-cache";
-  const url = "http://localhost:3000/events";
+  const url = "https://json-pwa.s3.sa-east-1.amazonaws.com/events.json";
   const list = document.querySelector("#event-list");
 
   caches.has(cacheName).then((cacheExists) => {
