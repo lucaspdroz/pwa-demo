@@ -1,6 +1,6 @@
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://json-pwa.s3.sa-east-1.amazonaws.com";
 const CACHE_NAME = "events-cache";
-const EVENT_ENDPOINT_PATH = "/events";
+const EVENT_ENDPOINT_PATH = "/events.json";
 const EVENT_ENDPOINT_REGEX = new RegExp(`${BASE_URL}${EVENT_ENDPOINT_PATH}`);
 
 self.addEventListener("install", (event) => {
